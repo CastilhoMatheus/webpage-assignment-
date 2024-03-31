@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algomon</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<body>
+    <div class="header">
+        <div class="logoWrapper">
+            <a href="./index.html"><img class="logo" src="./assets/images/logo.png" alt="home"></a>
+        </div>
+        <div class="menu">
+            <nav class="navigation-menu">
+                <div class="navigation-buttons">
+                    <a href="./index.html">HOME</a>
+                </div>
+                <div class="navigation-buttons">
+                    <a href="./aboutus.html">ABOUT US</a>
+                </div>
+                <div class="navigation-buttons">
+                    <a href="./store.html"  class="active">STORE</a>
+                </div>
+                <div class="navigation-buttons">
+                    <a href="./contact.html">CONTACT</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <section>
+        <h1>Collections</h1>
+    </section>
+
+    <div class="store-container">
+        <nav class="products">
+            <div class="product">
+                <img class="buy-options" src="./assets/images/bronze.png" alt="">
+                <label id="label" for="buy-options">99,00$</label>
+                <label class="promo" id="label" for="buy-options">59,00$</label>
+            </div>
+            <div class="product">
+                <img class="buy-options" src="./assets/images/Silver.png" alt="">
+                <label id="label" for="buy-options">199,00$</label>
+                <label class="promo" id="label" for="buy-options">99,00$</label>
+            </div>
+            <div class="product">
+                <img class="buy-options" src="./assets/images/gold.png" alt="">
+                <label id="label" for="buy-options">299,00$</label>
+                <label class="promo" id="label" for="buy-options">199,00$</label>
+            </div>
+        </nav>
+    </div>
+    <h2 id="promoTitle" style="display: none;">Congratulations, you found our secret promotional button!</h2>
+    
+
+    <footer class="store-page">
+        <p class="footer-heart">
+            Made with
+          <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"> by <a id="profile" class="profile">Matheus</a>
+          </p>
+    </footer>
+    <script src="./store.js"></script>
+</body>
+</html>

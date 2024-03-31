@@ -1,0 +1,262 @@
+* {
+    font-family: "Montserrat", sans-serif;
+  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 170px;
+    padding: 0 20px 0 10px;
+    margin: 0 0 30px;
+}
+
+.logoWrapper {
+    max-width: 25%;
+}
+.logo {
+    max-width: 35%;
+    cursor: pointer;
+}
+
+.menu {
+    width: 630px;
+}
+
+.navigation-menu {
+    display: flex;
+    flex-direction: row;    
+    height: 50px;
+    text-align: center;
+
+}
+.navigation-buttons {
+    margin: 10.2px;
+    width: 140px;
+    cursor: pointer;
+}
+.navigation-buttons:hover {
+    margin: 3.4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.active {
+    color: #ea8e48;
+    font-weight: 600;
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid #ea8e48;
+}
+
+.footer-heart{
+    text-align:center;
+    /* font-family: open sans, sans-serif; */
+}
+
+.emoji{
+    vertical-align: middle;
+}
+
+section {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sectionFooter {
+    margin: 2px;
+}
+
+p {
+    line-height: 1.6rem;
+}
+h3 {
+    font-weight: 400;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Gallery homepage */
+
+.galery-title {
+    margin: 50px 0 10px 0;
+}
+
+.container {
+    margin: 40px;
+    position: relative;
+}
+
+.game-slides {
+    display: none;
+}
+
+.game-pictures {
+    width: 100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+p > a{
+    color: rgb(90 194 194) !important;
+    cursor: pointer;
+}
+
+
+/* Styles for Store Page */
+
+.store-container, .products {
+    display: flex;
+    max-width: 90%;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    font-size: 25px;
+}
+
+.buy-options {
+    width: 50%;
+    margin: 40px 0 70px 0;
+}
+
+.product:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 500px;
+    width: 1330px;
+    cursor: pointer;
+}
+
+.store-page, .contact-page, .aboutus-page {
+    position: absolute;
+    bottom: 20px;
+}
+
+.promo {
+    font-weight: 600;
+    display: none;
+}
+
+
+/* Styles for Concact page */
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    height:200px;
+    resize: none;
+}
+.submit {
+    background-color: #ea8e48;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.submit:hover {
+    background-color: #292929;
+    color: #ea8e48;
+    font-weight: 600;
+    box-shadow: 1px 1px 11px 2px rgba(250, 126, 44, 2.5);
+}
+
+
+/* About us Page */
+
+.about-me-btn {
+    width: 200px;
+    height: 70px;
+    margin: 40px 0;
+    border: none;
+    background-color: #ea8e48;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-me-btn:hover {
+    background-color: #292929;
+    color: #ea8e48;
+    font-weight: 600;
+    box-shadow: 1px 1px 11px 2px rgba(250, 126, 44, 2.5);
+}
+
+.about-me-container {
+    display: none;
+    height: 400px;
+    justify-content: flex-end;
+    margin: 50px;
+
+}
+
+.profile-pic {
+    max-width: 25%;
+}
+
+.about-me-section{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 60px;
+}
+
+.about-me-section > ul {
+    list-style-type: none;
+    padding: 0%;
+    text-align: left;
+}

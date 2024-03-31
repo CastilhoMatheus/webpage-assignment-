@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algomon</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<body>
+    <div class="header">
+        <div class="logoWrapper">
+            <a href="./index.html"><img class="logo" src="./assets/images/logo.png" alt="home"></a>
+        </div>
+        <div class="menu">
+            <nav class="navigation-menu">
+                <div class="navigation-buttons">
+                    <a href="./index.html">HOME</a>
+                </div>
+                <div class="navigation-buttons">
+                    <a href="./aboutus.html">ABOUT US</a>
+                </div>
+                <div class="navigation-buttons">
+                    <a href="./store.html">STORE</a>
+                </div>
+                <div class="navigation-buttons">
+                    <a href="./contact.html" class="active">CONTACT</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <h2>Contact Us</h2>
+
+<form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email.." required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write about your contact" required></textarea>
+
+    <button id="submit" class="submit">Submit</button>
+</form>
+
+    
+
+    <footer class="contact-page">
+        <p class="footer-heart">
+            Made with
+          <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"> by <a class="profile">Matheus</a>
+          </p>
+    </footer>
+    <script src="./contact.js"></script>
+</body>
+</html>
